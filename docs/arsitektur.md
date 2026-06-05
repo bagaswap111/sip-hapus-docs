@@ -1,6 +1,6 @@
 # Arsitektur & Teknologi
 
-Aplikasi Hapus Regident Bapenda Jawa Tengah dibangun menggunakan pola arsitektur modern yang mengedepankan keamanan data, integrasi mulus antar-instansi, dan keandalan sistem.
+Aplikasi Hapus Regident Ditlantas Jawa Tengah dibangun menggunakan pola arsitektur modern yang mengedepankan keamanan data, integrasi mulus antar-instansi, dan keandalan sistem.
 
 ---
 

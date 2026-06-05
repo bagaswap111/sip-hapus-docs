@@ -1,6 +1,6 @@
 # Sistem Informasi Penghapusan Registrasi & Identifikasi Kendaraan Bermotor (Hapus Regident)
 
-Selamat datang di dokumentasi resmi **Sistem Informasi Penghapusan Registrasi dan Identifikasi Kendaraan Bermotor (Hapus Regident)** Badan Pendapatan Daerah (Bapenda) Provinsi Jawa Tengah.
+Selamat datang di dokumentasi resmi **Sistem Informasi Penghapusan Registrasi dan Identifikasi Kendaraan Bermotor (Hapus Regident)** Direktorat Lalu Lintas (Ditlantas) Provinsi Jawa Tengah.
 
 Aplikasi ini merupakan platform digital terintegrasi yang dirancang untuk memfasilitasi, melacak, dan mengotomatisasi proses bisnis penghapusan data kendaraan bermotor di Jawa Tengah secara cepat, transparan, dan akuntabel.
 

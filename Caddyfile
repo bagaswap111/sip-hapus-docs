@@ -1,6 +1,6 @@
 # Caddyfile Configuration
 # Menggunakan dynamic environment variable $SITE_DOMAIN (default: localhost)
-# Untuk production SSL, ubah nilai $SITE_DOMAIN menjadi domain Anda (misal: docs.bapenda.go.id)
+# Untuk production SSL, ubah nilai $SITE_DOMAIN menjadi domain Anda (misal: docs.ditlantas.go.id)
 
 {$SITE_DOMAIN:localhost} {
     # Tentukan root directory berkas statis

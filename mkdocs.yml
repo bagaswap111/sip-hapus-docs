@@ -1,6 +1,6 @@
-site_name: Hapus Regident Bapenda Jateng
+site_name: Hapus Regident Ditlantas Jateng
 site_url: https://sip-hapus-docs.readthedocs.io/
-site_description: Dokumentasi Sistem Informasi Penghapusan Registrasi dan Identifikasi Kendaraan Bermotor (Hapus Regident) Bapenda Jawa Tengah
+site_description: Dokumentasi Sistem Informasi Penghapusan Registrasi dan Identifikasi Kendaraan Bermotor (Hapus Regident) Ditlantas Jawa Tengah
 
 theme:
   name: material

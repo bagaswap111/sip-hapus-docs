@@ -1,6 +1,6 @@
-# Hapus Regident Bapenda Jateng - Documentation
+# Hapus Regident Ditlantas Jateng - Documentation
 
-Repository ini berisi seluruh berkas dokumentasi sistem informasi **Hapus Regident Bapenda Jawa Tengah** berbasis **Read the Docs** (menggunakan **MkDocs** dengan tema **Material**).
+Repository ini berisi seluruh berkas dokumentasi sistem informasi **Hapus Regident Ditlantas Jawa Tengah** berbasis **Read the Docs** (menggunakan **MkDocs** dengan tema **Material**).
 
 ---
 
@@ -67,13 +67,13 @@ Metode ini sangat praktis karena tidak memerlukan instalasi Python di server tar
 #### Langkah-Langkah Deploy:
 
 1.  **Arahkan DNS**:
-    Arahkan domain Anda (misal: `docs.bapenda.go.id`) via DNS A Record ke IP Publik server VPS Anda.
+    Arahkan domain Anda (misal: `docs.ditlantas.go.id`) via DNS A Record ke IP Publik server VPS Anda.
 
 2.  **Sesuaikan Nama Domain**:
     Buka berkas [docker-compose.yml](../sip-hapus-docs/docker-compose.yml) dan ubah variabel lingkungan `SITE_DOMAIN` menjadi domain Anda:
     ```yaml
     environment:
-      - SITE_DOMAIN=docs.bapenda.go.id # Ganti dengan domain Anda
+      - SITE_DOMAIN=docs.ditlantas.go.id # Ganti dengan domain Anda
     ```
 
 3.  **Jalankan Container**:
@@ -105,7 +105,7 @@ Jika server produksi Anda sudah memiliki Nginx atau Caddy terinstal secara langs
     ```nginx
     server {
         listen 80;
-        server_name docs.bapenda.go.id;
+        server_name docs.ditlantas.go.id;
         root /path/to/sip-hapus-docs/site;
         index index.html;
 
@@ -123,7 +123,7 @@ Jika server produksi Anda sudah memiliki Nginx atau Caddy terinstal secara langs
 3.  **Setup SSL dengan Certbot (Let's Encrypt)**:
     Jalankan Certbot untuk mendapatkan sertifikat HTTPS gratis secara otomatis:
     ```bash
-    certbot --nginx -d docs.bapenda.go.id
+    certbot --nginx -d docs.ditlantas.go.id
     ```
 
 ---
