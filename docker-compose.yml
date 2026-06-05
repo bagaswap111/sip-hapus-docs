@@ -1,0 +1,21 @@
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hapus_regident_docs
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - SITE_DOMAIN=localhost # Ubah dengan nama domain asli di server production (misal: docs.bapenda.go.id)
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+    name: caddy_data
+  caddy_config:
+    name: caddy_config

@@ -1,0 +1,27 @@
+# Caddyfile Configuration
+# Menggunakan dynamic environment variable $SITE_DOMAIN (default: localhost)
+# Untuk production SSL, ubah nilai $SITE_DOMAIN menjadi domain Anda (misal: docs.bapenda.go.id)
+
+{$SITE_DOMAIN:localhost} {
+    # Tentukan root directory berkas statis
+    root * /usr/share/caddy
+    file_server
+
+    # Kompresi Gzip dan Zstandard
+    encode gzip zstd
+
+    # HTTP Headers Keamanan (Security Headers)
+    header {
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        X-XSS-Protection "1; mode=block"
+        Referrer-Policy "no-referrer-when-downgrade"
+        Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+    }
+
+    # Log format JSON ke stdout
+    log {
+        output stdout
+        format json
+    }
+}
