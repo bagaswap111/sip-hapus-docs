@@ -1,0 +1,54 @@
+site_name: Hapus Regident Bapenda Jateng
+site_url: https://sip-hapus-docs.readthedocs.io/
+site_description: Dokumentasi Sistem Informasi Penghapusan Registrasi dan Identifikasi Kendaraan Bermotor (Hapus Regident) Bapenda Jawa Tengah
+
+theme:
+  name: material
+  language: id
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Beranda: index.md
+  - Arsitektur & Teknologi: arsitektur.md
+  - Panduan Instalasi: instalasi.md
+  - Hak Akses (RBAC): rbac.md
+  - Panduan Penggunaan:
+      - Wajib Pajak (Warga/Dealer): manual/wajib_pajak.md
+      - Petugas Instansi: manual/petugas.md
+  - Troubleshooting: troubleshooting.md
