@@ -54,19 +54,19 @@ nav:
   - Panduan Instalasi: instalasi.md
   - Hak Akses (RBAC): rbac.md
   - Tutorial:
-      - Autentikasi: tutorial/autentikasi.md
-      - Dashboard: tutorial/dashboard.md
-      - Kendaraan: tutorial/kendaraan.md
-      - Manajemen Cabang: tutorial/manajemenCabang.md
-      - Manajemen Pengguna: tutorial/manajemenPengguna.md
-      - Manajemen Permission: tutorial/manajemenPermission.md
-      - Manajemen Role: tutorial/manajemenRole.md
-      - Notifikasi: tutorial/notifikasi.md
-      - Pengajuan: tutorial/pengajuan.md
-      - Profil: tutorial/profil.md
-      - Surat Keputusan: tutorial/suratKeputusan.md
-      - Surat Pengajuan: tutorial/suratPengajuan.md
-      - Update Status: tutorial/updateStatus.md
+      - 1. Autentikasi: tutorial/autentikasi.md
+      - 2. Dashboard: tutorial/dashboard.md
+      - 3. Pengajuan: tutorial/pengajuan.md
+      - 4. Kendaraan: tutorial/kendaraan.md
+      - 5. Update Status: tutorial/updateStatus.md
+      - 6. Surat Pengajuan: tutorial/suratPengajuan.md
+      - 7. Surat Keputusan: tutorial/suratKeputusan.md
+      - 8. Profil: tutorial/profil.md
+      - 9. Notifikasi: tutorial/notifikasi.md
+      - 10. Manajemen Cabang: tutorial/manajemenCabang.md
+      - 11. Manajemen Pengguna: tutorial/manajemenPengguna.md
+      - 12. Manajemen Permission: tutorial/manajemenPermission.md
+      - 13. Manajemen Role: tutorial/manajemenRole.md
   - Panduan Penggunaan:
       - Wajib Pajak (Warga/Dealer): manual/wajib_pajak.md
       - Petugas Instansi: manual/petugas.md
