@@ -42,6 +42,7 @@ Kami berharap dokumentasi ini dapat memberikan manfaat dan kemudahan bagi seluru
 | 9 | **Early Achiril Putra** | 2802515261 | — | Computer Science |
 | 10 | **Arfa Naufal Azizan** | 2802516674 | — | Computer Science |
 | 11 | **Lintang Nathaniela Pribadi** | 2902723162 | — | Digital Business |
+| 12 | **Apriansyah Wibowo** | 5302422063 | — | Pendidikan Teknik Informatika dan Komputer |
 
 ---
 
