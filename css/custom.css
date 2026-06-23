@@ -1,0 +1,21 @@
+/* 1. Inisialisasi counter (penghitung angka) pada daftar isi */
+.md-sidebar--secondary .md-nav__list {
+    counter-reset: toc-counter;
+}
+
+/* 2. Atur kontainer link agar menggunakan flexbox */
+.md-sidebar--secondary .md-nav__link {
+    display: flex !important;
+    align-items: flex-start !important;
+    white-space: normal !important;
+    padding-left: 0 !important;
+}
+
+/* 3. Generate angka otomatis sebelum teks judul */
+.md-sidebar--secondary .md-nav__link::before {
+    counter-increment: toc-counter;              /* Naikkan angka +1 */
+    content: counter(toc-counter) ". " !important; /* Format angka dan titik */
+    flex-shrink: 0;                               /* Mencegah angka gepeng */
+    width: 1.5em;                                 /* Jarak/ruang khusus untuk angka */
+    font-weight: bold;                            /* Tebalkan angka jika perlu */
+}
