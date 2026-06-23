@@ -4,7 +4,7 @@
 Halaman dashboard menampilkan ringkasan statistik dan monitoring aktivitas sistem secara keseluruhan.
 
 ### Prasyarat
-- Pengguna sudah login
+- Pengguna sudah login kecuali akun wajib pajak
 
 ### Langkah-Langkah
 

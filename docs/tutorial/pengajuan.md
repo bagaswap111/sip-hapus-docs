@@ -4,13 +4,13 @@
 Fitur ini memungkinkan Wajib Pajak untuk mengajukan pendaftaran kendaraan baru beserta berkas persyaratannya.
 
 ### Prasyarat
-- Akun Wajib Pajak aktif dan berhasil login
+- Akun Wajib Pajak aktif dan/atau akun admin samsat dan berhasil login
 
 ### Langkah-Langkah
 
-**Langkah 1 — Login sebagai Wajib Pajak**
+**Langkah 1 — Login sebagai Wajib Pajak atau sebagai admin samsat**
 
-Masuk ke sistem menggunakan akun Wajib Pajak.
+Masuk ke sistem menggunakan akun Wajib Pajak atau akun admin samsat.
 
 **Langkah 2 — Buka Menu Buat Pengajuan**
 
@@ -43,9 +43,11 @@ Unggah seluruh berkas yang diperlukan:
 
 ![Upload berkas](Images/pengajuan-1_3.png)
 
-**Langkah 5 — Tambahkan Kendaraan (jika perlu)**
+**Langkah 5 — Tambahkan Kendaraan (jika perlu)**)
+
 
 Klik tombol **Tambah Kendaraan** untuk menambahkan kendaraan lain dan lengkapi seluruh berkas yang diperlukan.
+
 
 ![Tombol tambah kendaraan](Images/pengajuan-1_4.png)
 
