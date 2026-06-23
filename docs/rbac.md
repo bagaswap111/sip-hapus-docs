@@ -43,11 +43,11 @@ Digunakan untuk mengelola pengguna dan hak akses global di sistem:
 
 Berikut adalah ringkasan pembagian peran (roles) dan fungsionalitas utamanya:
 
-| Peran (Role) | Deskripsi Singkat | Fungsionalitas Utama |
-| :--- | :--- | :--- |
-| **Wajib Pajak (Warga/Dealer)** | Pemilik kendaraan yang mendaftarkan penghapusan. | Membuat draf pengajuan, mengunggah persyaratan, merespons revisi berkas. |
-| **Petugas Samsat / Admin** | Verifikator awal berkas di tingkat cabang pembantu. | Memeriksa fisik berkas, menyetujui draf awal, menerbitkan Surat Pengajuan (SP) ke Polda. |
-| **Polda / Regident** | Validasi keabsahan hukum & regident Ditlantas Polda. | Memproses SP tingkat Polda, memverifikasi status regident (kriminal/blokir), menerbitkan SK Polda. |
-| **Bapenda** | Pemeriksa kewajiban fiskal / pajak daerah. | Memverifikasi pembayaran PKB kendaraan, menyetujui SP fiskal, mengunggah SK Bapenda. |
-| **Jasa Raharja** | Pemeriksa asuransi & sumbangan wajib jalan raya. | Memeriksa kepatuhan iuran SWDKLLJ, menyetujui SP Jasa Raharja, mengunggah SK Jasa Raharja. |
-| **Superadmin / IT** | Administrator sistem utama. | Manajemen user, konfigurasi sistem, audit log, pengelolaan RBAC secara keseluruhan. |
+| Peran (Role) | Deskripsi Singkat | Fungsionalitas Utama                                                                                                                     |
+| :--- | :--- |:-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Wajib Pajak (Warga/Dealer)** | Pemilik kendaraan yang mendaftarkan penghapusan. | Membuat draf pengajuan, mengunggah persyaratan, merespons revisi berkas.                                                                 |
+| **Petugas Samsat / Admin** | Verifikator awal berkas di tingkat cabang pembantu. | Membuat draf pengajuan, mengunggah persyaratan, Memeriksa fisik berkas, menyetujui draf awal, menerbitkan Surat Pengajuan (SP) ke Polda. |
+| **Polda / Regident** | Validasi keabsahan hukum & regident Ditlantas Polda. | Memproses SP tingkat Polda, memverifikasi status regident (kriminal/blokir), menerbitkan SK Polda.                                       |
+| **Bapenda** | Pemeriksa kewajiban fiskal / pajak daerah. | Memverifikasi pembayaran PKB kendaraan, menyetujui SP fiskal, mengunggah SK Bapenda.                                                     |
+| **Jasa Raharja** | Pemeriksa asuransi & sumbangan wajib jalan raya. | Memeriksa kepatuhan iuran SWDKLLJ, menyetujui SP Jasa Raharja, mengunggah SK Jasa Raharja.                                               |
+| **Superadmin / IT** | Administrator sistem utama. | Manajemen user, konfigurasi sistem, audit log, pengelolaan RBAC secara keseluruhan.                                                      |

@@ -20,7 +20,8 @@ Proses pengajuan penghapusan kendaraan dibagi menjadi beberapa tahapan dari peng
 
 ```mermaid
 graph TD
-    A[Step 0: Wajib Pajak mengisi Draft & Mengajukan] --> B[Step 1: Petugas Samsat Verifikasi & Ajukan SP ke Polda]
+    A[Step 0: Wajib Pajak Mengajukan Permohonan Penghapusan Regident] 
+    A --> B[Step 1: Petugas Samsat Melakukan pengisian data, Verifikasi & mengajukan SP ke Polda]
     B --> C[Step 2: Polda Verifikasi & Kirim SP ke Bapenda & Jasa Raharja]
     C --> D[Step 3: Bapenda & Jasa Raharja memberikan Persetujuan/Balasan]
     D --> E[Step 4: Polda, Bapenda, & Jasa Raharja menerbitkan SK Masing-Masing]
