@@ -31,6 +31,12 @@ theme:
     - search.highlight
     - content.code.copy
 
+plugins:
+  - pdf-export:
+      verbose: true
+      media_type: print
+      enabled_if_env: ENABLE_PDF_EXPORT
+
 markdown_extensions:
   - toc:
       toc_depth: 2
