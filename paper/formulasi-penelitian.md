@@ -1,10 +1,10 @@
 # Digitalisasi Layanan Melalui Aplikasi SIP-HAPUS: Solusi Terpadu Untuk Optimalisasi Proses Penghapusan Regident Kendaraan Bermotor Di Jawa Tengah
 
-Bagaskoro Saputro^(1*), Galih Dea Pratama², Dimas Elang Setyoko³, Canggih Gelar Setyo Adhi⁴, Dian Martha Nurrul Amanah⁵, Mutiara Adinda⁶, Freysia Chandra Saliman⁷, Maximilian Otto Mukti Aji⁸, Early Achiril Putra⁹
+Bagaskoro Saputro^(1*), Galih Dea Pratama², Dimas Elang Setyoko³, Canggih Gelar Setyo Adhi⁴, Dian Martha Nurrul Amanah⁵, Mutiara Adinda⁶, Freysia Chandra Saliman⁷, Early Achiril Putra⁸, Lintang Nathaniela Pribadi⁹, Arfa Naufal Azizan¹⁰
 
 ¹Computer Science, BINUS @Semarang Campus
-²⁻⁴⁶⁻⁹Computer Science, BINUS University
-⁵Digital Business, BINUS University
+²⁻⁴⁶⁻⁸¹⁰Computer Science, BINUS University
+⁵⁹Digital Business, BINUS University
 
 ^(*)bsaputro@binus.edu
 
