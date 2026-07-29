@@ -64,15 +64,16 @@ nav:
       - 2. Dashboard: tutorial/dashboard.md
       - 3. Pengajuan: tutorial/pengajuan.md
       - 4. Kendaraan: tutorial/kendaraan.md
-      - 5. Update Status: tutorial/updateStatus.md
-      - 6. Surat Pengajuan: tutorial/suratPengajuan.md
-      - 7. Surat Keputusan: tutorial/suratKeputusan.md
-      - 8. Profil: tutorial/profil.md
-      - 9. Notifikasi: tutorial/notifikasi.md
-      - 10. Manajemen Cabang: tutorial/manajemenCabang.md
-      - 11. Manajemen Pengguna: tutorial/manajemenPengguna.md
-      - 12. Manajemen Permission: tutorial/manajemenPermission.md
-      - 13. Manajemen Role: tutorial/manajemenRole.md
+#      - 5. Update Status: tutorial/updateStatus.md
+      - 5. Surat Pengajuan: tutorial/suratPengajuan.md
+      - 6. Surat Keputusan: tutorial/suratKeputusan.md
+      - 7. Profil: tutorial/profil.md
+      - 8. Notifikasi: tutorial/notifikasi.md
+      - 9. Manajemen Cabang: tutorial/manajemenCabang.md
+      - 10. Manajemen Pengguna: tutorial/manajemenPengguna.md
+      - 11. Manajemen Permission: tutorial/manajemenPermission.md
+      - 12. Manajemen Role: tutorial/manajemenRole.md
+
   - Panduan Penggunaan:
       - Wajib Pajak (Warga/Dealer): manual/wajib_pajak.md
       - Petugas Instansi: manual/petugas.md
