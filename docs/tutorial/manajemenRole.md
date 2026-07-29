@@ -17,9 +17,9 @@ Buka menu navigasi utama aplikasi, lalu cari dan pilih menu **Akses Group**.
 
 **Langkah 2 — Inisiasi Tambah Role**
 
-Cari dan klik tombol **Tambah Role Baru** untuk membuka halaman pembuatan konfigurasi peran baru.
+Cari dan klik tombol **Tambah Grup Akses** untuk membuka halaman pembuatan konfigurasi peran baru.
 
-![tombol tambah role baru](Images/mnjRole-1_2.png)
+![tombol tambah grup akses](Images/mnjRole-1_2.png)
 
 **Langkah 3 — Atur Nama dan Hak Akses**
 
@@ -30,11 +30,13 @@ Lengkapi informasi data peran serta tentukan batasan sistem pada formulir yang t
 | **Nama Grup Akses** | Masukkan nama identitas peran baru (contoh: Verifikator Lapangan) |
 | **Permissions Checkbox** | Centang daftar hak akses spesifik yang ingin diberikan pada role ini |
 
+![form informasi](Images/mnjRole-1_3.png)
+
 **Langkah 4 — Simpan Konfigurasi Peran**
 
 Klik tombol **Simpan Akses Group** untuk mendaftarkan struktur peran baru tersebut ke dalam sistem.
 
-![tombol simpan](Images/mnjRole-1_3.png)
+![tombol simpan](Images/mnjRole-1_4.png)
 
 ### Hasil yang Diharapkan
 - *Role* baru berhasil dibuat dan terdaftar ke dalam sistem.
@@ -62,7 +64,7 @@ Buka menu navigasi utama, lalu pilih menu **Akses Group** untuk menampilkan daft
 
 Cari peran yang ingin diubah dari daftar, lalu klik tombol **Edit** pada baris data peran tersebut.
 
-![tombol edit](Images/mnjRole-1_2.png)
+![tombol edit](Images/mnjRole-2_2.png)
 
 **Langkah 3 — Sesuaikan Informasi dan Hak Akses**
 
@@ -73,11 +75,13 @@ Perbarui informasi data peran serta ubah batasan sistem pada komponen formulir y
 | **Nama Grup Akses** | Ubah nama identitas peran jika diperlukan |
 | **Permissions Checkbox** | Berikan tanda centang untuk menambah hak akses, atau hapus centang untuk mencabut hak akses |
 
+![form informasi](Images/mnjRole-2_3.png)
+
 **Langkah 4 — Terapkan Pembaruan Peran**
 
 Klik tombol **Perbarui Akses Group** untuk menyimpan perubahan konfigurasi ke dalam sistem.
 
-![tombol perbarui akses group](Images/mnjRole-2_2.png)
+![tombol perbarui akses group](Images/mnjRole-2_4.png)
 
 ---
 ## Hapus Role
@@ -101,11 +105,13 @@ Buka menu navigasi utama, lalu pilih menu **Akses Group** untuk menampilkan daft
 
 Cari peran target yang ingin dihapus dari daftar, lalu klik tombol **Hapus** pada baris data peran tersebut.
 
-![tombol hapus](Images/mnjRole-3_1.png)
+![tombol hapus](Images/mnjRole-3_2.png)
 
 **Langkah 3 — Konfirmasi Tindakan**
 
-Sistem akan menampilkan jendela peringatan konfirmasi. Periksa kembali nama peran tersebut, lalu klik tombol **Konfirmasi** untuk menyetujui proses penghapusan.
+Sistem akan menampilkan jendela peringatan konfirmasi. Periksa kembali nama peran tersebut, lalu klik tombol **OK** untuk menyetujui proses penghapusan.
+
+![konfirmasi hapus](Images/mnjRole-3_3.png)
 
 > ⚠️ **Peringatan Kritis:** Penghapusan ini bersifat permanen. Pastikan tidak ada pengguna aktif yang masih bergantung pada peran ini sebelum melakukan konfirmasi penghapusan.
 

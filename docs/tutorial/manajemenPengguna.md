@@ -30,15 +30,18 @@ Lengkapi data identitas dan pengaturan hak akses pada kolom yang tersedia:
 | **Nama Lengkap** | Masukkan nama lengkap instansi atau nama perwakilan |
 | **Email** | Alamat email aktif untuk keperluan log masuk dan notifikasi |
 | **Password** | Password yang akan digunakan user tersebut untuk login |
+| **Konfirmasi Password** | Ulangi password untuk konfirmasi |
 | **Jabatan** | Jabatan user baru saat ini |
 | **Unit Kerja** | Pilih peran khusus (contoh: Polda, Bapenda, Jasa Raharja) |
-| **Cabang Samsat** | Pilih wilayah cabang samsat yang terkait |
+| **Wilayah Samsat** | Pilih wilayah cabang samsat yang terkait |
+
+![formulir data pengguna](Images/mnjPengguna-1_3.png)
 
 **Langkah 4 — Simpan Data Pengguna**
 
 Klik tombol **Simpan User** untuk mendaftarkan akun baru ke dalam sistem.
 
-![tombol simpan user](Images/mnjPengguna-1_3.png)
+![tombol simpan user](Images/mnjPengguna-1_4.png)
 
 ### Hasil yang Diharapkan
 - Akun *stakeholder* baru berhasil dibuat oleh sistem.
@@ -67,7 +70,7 @@ Buka menu navigasi utama, masuk ke menu **Pemangku Kepentingan** untuk menampilk
 
 Cari akun *stakeholder* yang ingin diubah, lalu klik tombol **Edit** pada baris data akun tersebut.
 
-![tombol edit](Images/mnjPengguna-2_1.png)
+![tombol edit](Images/mnjPengguna-2_2.png)
 
 **Langkah 3 — Ubah Informasi Data Pengguna**
 
@@ -77,16 +80,19 @@ Perbarui informasi data pada kolom formulir yang ingin diganti:
 |---|---|
 | **Nama Lengkap** | Masukkan nama lengkap instansi atau nama perwakilan |
 | **Email** | Alamat email aktif untuk keperluan log masuk dan notifikasi |
-| **Password** | Password yang akan digunakan user tersebut untuk login |
+| **Password Baru** | Password baru yang akan digunakan user tersebut untuk login, kosongkan jika tidak diganti |
+| **Konfirmasi Password Baru** | Ulangi password baru jika diganti |
 | **Jabatan** | Jabatan user baru saat ini |
 | **Unit Kerja** | Pilih peran khusus (contoh: Polda, Bapenda, Jasa Raharja) |
-| **Cabang Samsat** | Pilih wilayah cabang samsat yang terkait |
+| **Wilayah Samsat** | Pilih wilayah cabang samsat yang terkait |
+
+![kolom informasi pengguna](Images/mnjPengguna-2_3.png)
 
 **Langkah 4 — Terapkan Pembaruan Data**
 
 Klik tombol **Perbarui User** untuk menyimpan perubahan data ke dalam sistem.
 
-![tombol perbarui user](Images/mnjPengguna-2_2.png)
+![tombol perbarui user](Images/mnjPengguna-2_4.png)
 
 ### Hasil yang Diharapkan
 - Data akun *stakeholder* terkait berhasil diperbarui oleh sistem dengan informasi terbaru.
@@ -120,11 +126,13 @@ Cari akun Wajib Pajak yang ingin diubah, lalu klik tombol **Edit** pada baris da
 
 Perbarui informasi data profil Wajib Pajak pada kolom formulir yang tersedia sesuai dengan kebutuhan perubahan.
 
+![Kolom informasi wp](Images/mnjPengguna-3_3.png)
+
 **Langkah 4 — Terapkan Pembaruan Data**
 
 Klik tombol **Perbarui Data** untuk menyimpan perubahan data ke dalam sistem.
 
-![tombol perbarui data](Images/mnjPengguna-3_3.png)
+![tombol perbarui data](Images/mnjPengguna-3_4.png)
 
 ### Hasil yang Diharapkan
 - Data akun Wajib Pajak terkait berhasil diperbarui oleh sistem dengan informasi profil terbaru.
@@ -146,15 +154,19 @@ Fitur ini memungkinkan Admin untuk menghapus akun pengguna (baik Wajib Pajak mau
 
 Buka menu navigasi utama, lalu pilih **Manajemen Pengguna** untuk mengakses menu Wajib Pajak dan pilih **Pemangku Kepentingan** untuk mengakses menu *Stakeholder*.
 
+![akses daftar pengguna](Images/mnjPengguna-4_1.png)
+
 **Langkah 2 — Inisiasi Penghapusan Akun**
 
 Cari akun pengguna yang dituju dari daftar, lalu klik tombol **Hapus** pada baris data akun tersebut.
 
-![tombol hapus](Images/mnjPengguna-4_1.png)
+![tombol hapus](Images/mnjPengguna-4_2.png)
 
 **Langkah 3 — Konfirmasi Tindakan**
 
-Sistem akan menampilkan jendela peringatan. Periksa kembali nama akun, lalu klik tombol **Konfirmasi** untuk menyetujui proses penghapusan.
+Sistem akan menampilkan jendela peringatan. Periksa kembali nama akun, lalu klik tombol **OK** untuk menyetujui proses penghapusan.
+
+![konfirmasi hapus pengguna](Images/mnjPengguna-4_3.png)
 
 > ⚠️ **Peringatan Kritis:** Tindakan ini bersifat permanen. Akun yang telah dihapus tidak dapat dipulihkan kembali dan semua sesi aktif pengguna tersebut akan langsung dihentikan oleh sistem.
 

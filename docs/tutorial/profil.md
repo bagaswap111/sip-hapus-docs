@@ -10,7 +10,7 @@ Fitur ini memungkinkan pengguna untuk memperbarui nama dan alamat email pada aku
 
 **Langkah 1 — Akses Halaman Profil**
 
-Masuk ke halaman:
+Masuk ke halaman Profil Saya:
 ```
 /profile
 ```
@@ -19,7 +19,9 @@ Masuk ke halaman:
 
 **Langkah 2 — Ubah Data Profil**
 
-Perbarui kolom **Nama** dan/atau **Email** sesuai kebutuhan.
+Perbarui kolom informasi pribadi sesuai kebutuhan.
+
+![Edit info profil](Images/profil-1_2.png)
 
 **Langkah 3 — Simpan Perubahan**
 
@@ -44,7 +46,12 @@ Fitur ini memungkinkan pengguna untuk mengunggah atau memperbarui foto profil ak
 
 **Langkah 1 — Akses Halaman Profil**
 
-Masuk ke halaman Profil Saya (`/profile`).
+Masuk ke halaman Profil Saya:
+```
+/profile
+```
+
+![Halaman profil](Images/profil-1_1.png)
 
 **Langkah 2 — Pilih File Foto**
 
@@ -57,6 +64,8 @@ Klik area foto profil atau tombol upload, lalu pilih file foto dari perangkat.
 **Langkah 3 — Simpan Perubahan**
 
 Klik tombol **Simpan** untuk menerapkan foto profil baru.
+
+![Klik simpan](Images/profil-2_3.png)
 
 ### Hasil yang Diharapkan
 - Foto profil berhasil diperbarui dan tampil pada halaman profil maupun navigasi.
@@ -74,7 +83,11 @@ Fitur ini memungkinkan pengguna yang sudah login untuk mengganti kata sandi akun
 
 **Langkah 1 — Akses Halaman Profil**
 
-Masuk ke halaman Profil Saya (`/profile`).
+Masuk ke halaman Profil Saya:
+```
+/profile
+```
+![Halaman profil](Images/profil-1_1.png)
 
 **Langkah 2 — Isi Formulir Ganti Password**
 
@@ -91,6 +104,8 @@ Pada bagian **Ganti Password**, lengkapi kolom berikut:
 **Langkah 3 — Simpan Password Baru**
 
 Klik tombol **Update Password** untuk menyimpan perubahan.
+
+![Tombol update password](Images/profil-3_3.png)
 
 ### Hasil yang Diharapkan
 - Password berhasil diperbarui. Gunakan password baru pada login berikutnya.

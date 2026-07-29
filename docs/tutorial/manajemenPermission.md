@@ -23,7 +23,9 @@ Cari *permission* target yang ingin dihapus dari daftar dan klik ikon dropdown, 
 
 **Langkah 3 — Konfirmasi Tindakan**
 
-Sistem akan menampilkan jendela peringatan konfirmasi. Periksa kembali nama kunci *permission* tersebut, lalu klik tombol **Konfirmasi** untuk menyetujui proses penghapusan.
+Sistem akan menampilkan jendela peringatan konfirmasi. Periksa kembali nama kunci *permission* tersebut, lalu klik tombol **OK** untuk menyetujui proses penghapusan.
+
+![tombol konfirmasi](Images/mnjPermission-1_3.png)
 
 > ⚠️ **Peringatan Kritis:** Tindakan ini bersifat permanen. Menghapus *permission* yang sedang digunakan oleh suatu *role* dapat mencabut hak akses tersebut dari pengguna terkait secara otomatis.
 

@@ -11,10 +11,7 @@ Fitur ini memungkinkan pengguna baru untuk membuat akun sebagai Wajib Pajak pada
 
 **Langkah 1 — Akses Halaman Registrasi**
 
-Buka browser dan navigasi ke halaman:
-```
-/register
-```
+Navigasi ke halaman registrasi melalui tulisan "Daftar Akun Pengusul".
 
 ![Halaman register](Images/autentikasi-1_1.png)
 
@@ -26,15 +23,20 @@ Lengkapi seluruh kolom yang tersedia dengan data yang valid:
 |---|---|
 | **Nama** | Nama lengkap sesuai identitas |
 | **Email** | Alamat email aktif yang dapat diakses |
-| **NIK** | Nomor Induk Kependudukan (16 digit) |
+| **Nomor Hp** | Nomor telepon aktif |
+| **Domisili** | Kota / kabupaten domisili |
 | **Password** | Kata sandi minimal 8 karakter |
 | **Konfirmasi Password** | Ulangi kata sandi yang sama |
 
-> ⚠️ **Pastikan** NIK yang dimasukkan sesuai dengan KTP dan email yang digunakan adalah email aktif, karena akan digunakan untuk verifikasi akun.
+> ⚠️ **Pastikan** email yang digunakan adalah email aktif, karena akan digunakan untuk verifikasi akun.
+
+![Halaman register](Images/autentikasi-1_2.png)
 
 **Langkah 3 — Kirim Formulir**
 
-Klik tombol **Register** untuk menyelesaikan proses pendaftaran.
+Klik tombol **Daftar Sekarang** untuk menyelesaikan proses pendaftaran.
+
+![tombol daftar](Images/autentikasi-1_3.png)
 
 ### Hasil yang Diharapkan
 - Akun berhasil dibuat dan sistem menampilkan pesan konfirmasi.
@@ -72,6 +74,8 @@ Isi kolom berikut dengan data yang valid:
 **Langkah 3 — Masuk ke Sistem**
 
 Klik tombol **Masuk Sekarang** untuk mengakses sistem.
+
+![tombol masuk](Images/autentikasi-2_3.png)
 
 ### Hasil yang Diharapkan
 - Pengguna berhasil masuk dan diarahkan ke dashboard sesuai role (Wajib Pajak, Admin, dll).
