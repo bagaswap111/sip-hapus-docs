@@ -2,7 +2,7 @@
 
 Bagaskoro Saputro^(1*), Galih Dea Pratama², Dimas Elang Setyoko³, Canggih Gelar Setyo Adhi⁴, Dian Martha Nurrul Amanah⁵, Mutiara Adinda⁶, Freysia Chandra Saliman⁷, Early Achiril Putra⁸, Lintang Nathaniela Pribadi⁹, Arfa Naufal Azizan¹⁰, Maximilian Otto Mukti Aji¹¹
 
-¹Computer Science, BINUS @Semarang Campus
+¹Computer Science, BINUS University
 ²⁻⁴⁸⁻¹⁰Computer Science, BINUS University
 ⁵⁶⁹¹¹Digital Business, BINUS University
 
