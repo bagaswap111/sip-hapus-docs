@@ -1,4 +1,4 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[conference,a4paper]{IEEEtran}
 \IEEEoverridecommandlockouts
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -18,7 +18,7 @@
 \usepackage{tabularx}
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows, positioning, calc, decorations.pathmorphing}
-\usepackage[margin=0.7in]{geometry}
+\usepackage[a4paper,margin=0.7in]{geometry}
 \setlength{\parskip}{1pt}
 
 \hypersetup{
@@ -35,81 +35,102 @@
 
 \begin{document}
 
-\title{Digitization of Services Through the SIP-HAPUS Application: An Integrated Solution
-for Optimizing the Deletion Process of Motor Vehicle Registrations in Central Java\\
-{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured for
-https://ieeexplore.ieee.org and should not be used}
-}
+\title{SIP-HAPUS: A Digitalisation and Optimisation System for Motor Vehicle Registration Deletion in Central Java.}
+% {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured for
+% https://ieeexplore.ieee.org and should not be used}
+% }
 
-\author{
-\IEEEauthorblockN{1\textsuperscript{st} Bagaskoro Saputro}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Jakarta, Indonesia}
-\and
-\IEEEauthorblockN{2\textsuperscript{nd} Galih Dea Pratama}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Jakarta, Indonesia}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Dimas Elang Setyoko}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Jakarta, Indonesia}
-\and
-\IEEEauthorblockN{4\textsuperscript{th} Canggih Gelar Setyo Adhi}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Jakarta, Indonesia}
-\and
-\IEEEauthorblockN{5\textsuperscript{th} Dian Martha Nurrul Amanah}
-\IEEEauthorblockA{Digital Business Program,\\
-Digital Business Department,\\
-BINUS Business School, Bina Nusantara University,\\
-Jakarta, Indonesia}
-\and
-\IEEEauthorblockN{6\textsuperscript{th} Mutiara Adinda}
-\IEEEauthorblockA{Digital Business Program,\\
-Digital Business Department,\\
-BINUS Business School, Bina Nusantara University,\\
-Semarang, Indonesia}
-\and
-\IEEEauthorblockN{7\textsuperscript{th} Freysia Chandra Saliman}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Semarang, Indonesia}
-\and
-\IEEEauthorblockN{8\textsuperscript{th} Early Achiril Putra}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Semarang, Indonesia}
-\and
-\IEEEauthorblockN{9\textsuperscript{th} Lintang Nathaniela Pribadi}
-\IEEEauthorblockA{Digital Business Program,\\
-Digital Business Department,\\
-BINUS Business School, Bina Nusantara University,\\
-Semarang, Indonesia}
-\and
-\IEEEauthorblockN{10\textsuperscript{th} Arfa Naufal Azizan}
-\IEEEauthorblockA{Computer Science Department,\\
-School of Computer Science,\\
-Bina Nusantara University,\\
-Semarang, Indonesia}
-\and
-\and
-\IEEEauthorblockN{12\textsuperscript{th} Apriansyah Wibowo}
-\IEEEauthorblockA{Pendidikan Teknik Informatika\\
-dan Komputer,\\
-Faculty of Engineering,\\
-Universitas Negeri Semarang,\\
-Semarang, Indonesia}
-}
+% \author{
+% \IEEEauthorblockN{1\textsuperscript{st} Bagaskoro Saputro}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Jakarta, Indonesia\\
+% bagaskoro.saputro@binus.ac.id}
+% \and
+% \IEEEauthorblockN{2\textsuperscript{nd} Galih Dea Pratama}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Jakarta, Indonesia\\
+% galih.pratama001@binus.ac.id}
+% \and
+% \IEEEauthorblockN{3\textsuperscript{rd} Dimas Elang Setyoko}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Jakarta, Indonesia\\
+% dimas.elang@binus.ac.id}
+% \and
+% \IEEEauthorblockN{4\textsuperscript{th} Canggih Gelar Setyo Adhi}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Jakarta, Indonesia\\
+% canggih.gelar@binus.ac.id}
+% \and
+% \IEEEauthorblockN{5\textsuperscript{th} Dian Martha Nurrul Amanah}
+% \IEEEauthorblockA{Digital Business Program,\\
+% Digital Business Department,\\
+% BINUS Business School, \\
+% Bina Nusantara University,\\
+% Jakarta, Indonesia\\
+% dian.martha@binus.ac.id}
+% \and
+% \IEEEauthorblockN{6\textsuperscript{th} Mutiara Adinda}
+% \IEEEauthorblockA{
+% Digital Business Department,\\
+% BINUS Business School, \\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% mutiara.adinda@binus.ac.id}
+% \and
+% \IEEEauthorblockN{7\textsuperscript{th} Freysia Chandra Saliman}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% freysia.saliman@binus.ac.id}
+% \and
+% \IEEEauthorblockN{8\textsuperscript{th} Early Achiril Putra}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% early.putra@binus.ac.id}
+% \and
+% \IEEEauthorblockN{9\textsuperscript{th} Lintang Nathaniela Pribadi}
+% \IEEEauthorblockA{
+% Digital Business Department,\\
+% BINUS Business School, \\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% lintang.pribadi@binus.ac.id}
+% \and
+% \IEEEauthorblockN{10\textsuperscript{th} Maximilian Otto Mukti Aji }
+% \IEEEauthorblockA{
+% Digital Business Department,\\
+% BINUS Business School, \\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% maximilian.aji@binus.ac.id}
+% \and
+% \IEEEauthorblockN{11\textsuperscript{th} Arfa Naufal Azizan}
+% \IEEEauthorblockA{Computer Science Department,\\
+% School of Computer Science,\\
+% Bina Nusantara University,\\
+% Semarang, Indonesia\\
+% arfa.azizan@binus.ac.id}
+% \and
+% \and
+% \IEEEauthorblockN{12\textsuperscript{th} Apriansyah Wibowo}
+% \IEEEauthorblockA{Pendidikan Teknik Informatika\\
+% dan Komputer,\\
+% Faculty of Engineering,\\
+% Universitas Negeri Semarang,\\
+% Semarang, Indonesia\\
+% sultanapri@students.unnes.ac.id}
+% }
 
 \maketitle
 
@@ -122,9 +143,9 @@ The process of deleting motor vehicle registrations in Central Java involves mul
 \section{Introduction}
 \label{sec:introduction}
 
-The process of deleting motor vehicle registrations in Central Java involves multiple government agencies, including Samsat, Regional Police (Polda), Regional Revenue Agency (Bapenda), and PT Jasa Raharja [1]. Cross-agency coordination relying on physical documents creates structural problems, including lengthy non-integrated processes, lack of transparency in monitoring status, and absence of centralized activity documentation. These problems align with the concept of \emph{governance gap} in digital public service governance [3]. In the context of \emph{digital governance}, integrated information systems become critical components supporting accountability, transparency, and bureaucratic efficiency [4]. Maier et al. [4] emphasize that digital-based public service transformation requires a systematic approach that transforms the service model from manual-physical to measurable, transparent, and efficient digital workflows.
+In Central Java, the process of deregistering motor vehicle registrations involves several agencies such as Samsat, Polda, Bapenda, and PT Jasa Raharja [1]. Coordination among different government agencies based on physical documents leads to some issues, namely long non-integrated process, lack of transparency in tracking status, and lack of central activity documentation. These issues are associated with the idea of \emph{governance gap} in digital public service governance [3]. In terms of \emph{digital governance}, integrated information system becomes an important component which provides accountability, transparency, and efficiency of bureaucracy [4]. As Maier et al. [4] highlight, transformation of public service based on digitization should be performed with the help of a systemic approach which involves the transformation of the service model into measurable, transparent and efficient digital processes.
 
-The application workflow for deleting motor vehicle registrations begins with the taxpayer submitting a request, then proceeding through verification at Samsat, follow-up verification at the Regional Police (Polda), approval from the Regional Revenue Agency (Bapenda) and PT Jasa Raharja, until the issuance of a Decision Letter (SK) by each relevant agency. Each stage is currently conducted manually and separately between agencies, potentially slowing down the entire administrative process.
+The work process of requesting deletion of motor vehicle registrations starts with the taxpayer's request and includes verification of request at Samsat, additional verification at Polda, approvals at Bapenda and PT Jasa Raharja, up to the issuing decision letter (SK) by every concerned party. All the stages of the process take place independently from each other in a manual way.
 
 Based on analysis of the existing business workflow, several fundamental problems require systematic attention. First, the lengthy and non-integrated administrative process is a primary obstacle because each agency has its own independent system and work procedures without direct data connectivity. Second, lack of transparency in monitoring application status leaves taxpayers without \emph{real-time} access to track how far their application has progressed. Third, potential miscommunication and delays between agencies are exacerbated by non-centralized data still relying on physical documents. Fourth, the absence of centralized activity documentation makes audit processes and performance evaluations difficult at each stage. These problems are illustrated in Fig.~\ref{fig:flowchart}.
 
@@ -146,23 +167,23 @@ This research is structured as follows. Section~\ref{sec:method} describes the r
 \begin{figure}[!t]
 \centering
 \begin{tikzpicture}[
-    node distance=0.6cm and 1cm,
-    stage/.style={rectangle, draw=blue!60, fill=blue!5, rounded corners, minimum width=2cm, minimum height=0.6cm, text centered, font=\scriptsize},
+    node distance=0.6cm and 1.2cm,
+    stage/.style={rectangle, draw=blue!60, fill=blue!5, rounded corners, minimum width=2.1cm, minimum height=0.6cm, inner xsep=0.05cm, inner ysep=0.1cm, font=\scriptsize},
     arr/.style={->, >=stealth', thick}
 ]
-\node[stage, fill=blue!15] (1) {1. Problem\\Identification};
-\node[stage, below=of 1] (2) {2. Design\\~\\& Development};
-\node[stage, below=of 2] (3) {3.\\Evaluation};
-\node[stage, below=of 3] (4) {4.\\Communication};
-\node[stage, right=of 1] (5) {5.\\Implementation};
-\node[stage, below=of 5] (6) {6.\\Deployment};
-\draw[arr] (1) -- (2);
-\draw[arr] (2) -- (3);
-\draw[arr] (3) -- (4);
-\draw[->, thick] (4.west) -- (-1.78,-3.64) -- (-1.8,0) -- (1.west);
-\draw[arr] (1) -- (5);
-\draw[arr] (5) -- (6);
-\node[above=0.1cm of 4, font=\scriptsize\itshape] {Cyclic};
+\node[stage, fill=blue!15] (n1) {\parbox[c]{2cm}{\centering 1. Problem\\Identification}};
+\node[stage, below=of n1] (n2) {\parbox[c]{2cm}{\centering 2. Design \& Development}};
+\node[stage, below=of n2] (n3) {\parbox[c]{2cm}{\centering 3. Evaluation}};
+\node[stage, below=of n3] (n4) {\parbox[c]{2cm}{\centering 4. Communication}};
+\node[stage, right=of n1] (n5) {\parbox[c]{2cm}{\centering 5. Implementation}};
+\node[stage, below=of n5] (n6) {\parbox[c]{2cm}{\centering 6. Deployment}};
+\draw[arr] (n1) -- (n2);
+\draw[arr] (n2) -- (n3);
+\draw[arr] (n3) -- (n4);
+\draw[->, thick] (n4.west) -- ++(-0.5,0) |- (n1.west);
+\draw[arr] (n1) -- (n5);
+\draw[arr] (n5) -- (n6);
+\node[right=0.05cm of n4, font=\scriptsize\itshape, align=center] {cyclic};
 \end{tikzpicture}
 \caption{Design Science Research Framework Applied to SIP-HAPUS Development}
 \label{fig:dsr}
@@ -201,7 +222,7 @@ The final stage aims to disseminate research results to the academic and practit
 \subsection{System Development}
 \label{subsec:system-development}
 
-The SIP-HAPUS platform has been successfully developed and is accessible at \texttt{https://audira.site/}. The system architecture consists of three main layers: \emph{presentation layer}, \emph{application layer}, and \emph{data layer}. The \emph{presentation layer} is built using Bootstrap 5 with the Kaiadmin template. The \emph{application layer} is developed using the Laravel framework providing seven integrated main modules through internal REST APIs. The \emph{data layer} uses MySQL as a relational database management system.
+The SIP-HAPUS platform has been successfully developed. The system architecture consists of three main layers: \emph{presentation layer}, \emph{application layer}, and \emph{data layer}. The \emph{presentation layer} is built using Bootstrap 5 with the Kaiadmin template. The \emph{application layer} is developed using the Laravel framework providing seven integrated main modules through internal REST APIs. The \emph{data layer} uses MySQL as a relational database management system.
 
 \begin{figure}[!t]
 \centering
@@ -244,8 +265,8 @@ Based on structural analysis of interface design and documented workflows, task 
 \label{tab:task-completion}
 \renewcommand{\arraystretch}{1.0}
 \footnotesize
-\setlength{\tabcolsep}{2pt}
-\begin{tabular}{c|p{2.6cm}|c|c|c|p{1.2cm}}
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{c|p{2.3cm}|c|c|c|p{1.2cm}}
 \hline
 \textbf{ID} & \textbf{Task} & \textbf{Role} & \textbf{Completion} & \textbf{Time} & \textbf{Severity} \\
 \hline
@@ -333,7 +354,12 @@ The SUS score of 71.5 places the platform at Grade B with a ``Good'' category, e
 \subsection{Discussion}
 \label{subsec:discussion}
 
-The \emph{heuristic evaluation} results indicated that the majority of \emph{usability} issues were concentrated on two heuristics: H10 (\emph{Help and Documentation}) and H5 (\emph{Error Prevention}). The correlation between \emph{heuristic} findings and \emph{task completion} estimation showed a consistent pattern. Task T9 had the lowest estimated \emph{completion rate} at 85\%, which correlated directly with the major finding on H10 [8].
+The evaluation results indicate that SIP-HAPUS has a satisfactory degree of usability and is able to facilitate the motor vehicle deregistration process. The heuristic evaluation showed that 82.9\% of the aspects evaluated were rated as “Good”. However, there are some usability problems that need to be addressed, such as error prevention (H5) and help and documentation (H10) [8]. The results show that the main workflow is working well but there is a need for further validation, error prevention and orientation to users, especially those who are performing complex administrative tasks. This is also seen in the results of the task completion, with basic monitoring tasks having a 100\% completion rate and the more complex inter-agency Decision Letter process having an 85\% completion rate.
+
+The SUS simulation result was 71.5 (Grade B) which means the usability is adequate and generally supported the results of the heuristic evaluation. The SUS results and task completion rates are based on expert estimates, and are not actual test results with users from government agencies, so they should be regarded as preliminary test results. Thus, more usability testing is required to validate the system in real conditions of use by personnel from the Samsat, Provincial Police (Polda), Regional Revenue Agency (Bapenda), and Jasa Raharja.
+
+Besides the practical aspects, SIP-HAPUS shows a considerable efficiency improvement in the process. The manual processing time was estimated to be 90-120 days, which has been reduced to 2-4 business days on the digital platform, or 96\% faster. This improvement is facilitated by data centralization, real-time monitoring, automated notifications, digital document generation, and more efficient interagency coordination. These results show that SIP-HAPUS not only digitizes existing administrative activities, but also facilitates more transparent and traceable interagency processes.
+
 
 \subsection{Manual vs Digital Process Comparison}
 \label{subsec:comparison}
@@ -353,8 +379,8 @@ Completing one deregistration application document manually required between 3 t
 \label{tab:comparison}
 \renewcommand{\arraystretch}{1.0}
 \footnotesize
-\setlength{\tabcolsep}{2pt}
-\setlength{\tabcolsep}{1pt}\begin{tabular}{p{1.5cm}|c|c|p{3.5cm}}
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{p{1.5cm}|c|c|p{3.2cm}}
 \hline
 \textbf{Process Stage} & \textbf{Manual (days)} & \textbf{Digital (days)} & \textbf{Description} \\
 \hline
@@ -382,7 +408,7 @@ Finalization \& notification & 7--14 & $<$\,0.001 & Automatic WhatsApp notificat
 
 \section{AI/ML Relevance}\label{subsec:ai-ml-relevance}
 
-While this research does not develop AI or machine learning models directly, the SIP-HAPUS platform is architecturally designed to integrate AI components as future enhancements. The centralized monitoring architecture, \emph{real-time} data pipeline, and structured activity logs provide a ready foundation for integrating \emph{predictive analytics} for automated timeline estimation, \emph{natural language processing} for intelligent document classification and extraction, and \emph{anomaly detection} for identifying irregular application patterns across agencies. The platform aligns with ICIMPACT's focus on intelligent systems by demonstrating how digital governance infrastructure can serve as a prerequisite for AI-driven public service optimization.
+Even though there are no specific applications of AI and machine learning in the current research, SIP-HAPUS is built in such a way that the integration of the mentioned tools can become an important next step in the system development. The architecture of centralized monitoring, real-time data pipeline, and structured logs give enough conditions for the implementation of predictive analytics to estimate timelines automatically, natural language processing to classify and extract data from the documents, and anomaly detection for recognition of abnormal application behavior.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -404,32 +430,32 @@ Four main deliverables targeted in the Universitas Bina Nusantara Internal PkM G
 
 All data, source code, and materials supporting the findings of this study are publicly available at: \url{https://doi.org/10.17605/OSF.IO/TMHCX}. The source code repository is available at \url{https://github.com/bagaswap111/sip-hapus-docs}.
 
-\section{Author Contributions}
-\label{sec:author-contributions}
+% \section{Author Contributions}
+% \label{sec:author-contributions}
 
-\textbf{Bagaskoro Saputro} (Corresponding Author) --- Conceptualization, Methodology, Software Development, Investigation, Writing, Project Administration, and Funding Acquisition.
+% \textbf{Bagaskoro Saputro} (Corresponding Author) --- Conceptualization, Methodology, Software Development, Investigation, Writing, Project Administration, and Funding Acquisition.
 
-\textbf{Galih Dea Pratama} --- Conceptualization, Software Development, Formal Analysis, and Writing -- Review.
+% \textbf{Galih Dea Pratama} --- Conceptualization, Software Development, Formal Analysis, and Writing -- Review.
 
-\textbf{Dimas Elang Setyoko} --- Software Development, Data Curation, Investigation, and Writing -- Review.
+% \textbf{Dimas Elang Setyoko} --- Software Development, Data Curation, Investigation, and Writing -- Review.
 
-\textbf{Canggih Gelar Setyo Adhi} --- Software, Formal Analysis, Validation, and Visualization.
+% \textbf{Canggih Gelar Setyo Adhi} --- Software, Formal Analysis, Validation, and Visualization.
 
-\textbf{Dian Martha Nurrul Amanah} --- Data Curation, Investigation, Formal Analysis, and Writing.
+% \textbf{Dian Martha Nurrul Amanah} --- Data Curation, Investigation, Formal Analysis, and Writing.
 
-\textbf{Mutiara Adinda} --- Investigation, Data Curation, and Writing -- Review.
+% \textbf{Mutiara Adinda} --- Investigation, Data Curation, and Writing -- Review.
 
-\textbf{Freysia Chandra Saliman} --- Software, Validation, and Writing -- Review.
+% \textbf{Freysia Chandra Saliman} --- Software, Validation, and Writing -- Review.
 
-\textbf{Early Achiril Putra} --- Investigation, Data Curation, and Formal Analysis.
+% \textbf{Early Achiril Putra} --- Software, Investigation, Data Curation, and Formal Analysis.
 
-\textbf{Lintang Nathaniela Pribadi} --- Software, Investigation, and Writing -- Review.
+% \textbf{Lintang Nathaniela Pribadi} --- Investigation, and Writing -- Review.
 
-\textbf{Arfa Naufal Azizan} --- Investigation, Data Curation, and Visualization.
+% \textbf{Arfa Naufal Azizan} --- Software, Investigation, Data Curation, and Visualization.
 
-\textbf{Maximilian Otto Mukti Aji} --- Conceptualization, Writing -- Review, and Supervision.
+% \textbf{Maximilian Otto Mukti Aji} --- Conceptualization, Writing -- Review, and Supervision.
 
-\textbf{Apriansyah Wibowo} --- Conceptualization, Investigation, and Writing -- Review.
+% \textbf{Apriansyah Wibowo} --- Software, Conceptualization, Investigation, and Writing -- Review.
 
 All authors reviewed and approved the final manuscript.
 

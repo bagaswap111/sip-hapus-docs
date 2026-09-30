@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.20)  30 SEP 2026 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.20)  30 SEP 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,8 +874,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box73
 )
-(./ICIMPACT-2027-English.aux)
-\openout1 = `ICIMPACT-2027-English.aux'.
+(./Blind-ICIMPACT-2027-English.aux)
+\openout1 = `Blind-ICIMPACT-2027-English.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -944,9 +944,9 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package hyperref Info: Link coloring ON on input line 36.
 
-(./ICIMPACT-2027-English.out) (./ICIMPACT-2027-English.out)
+(./Blind-ICIMPACT-2027-English.out) (./Blind-ICIMPACT-2027-English.out)
 \@outlinefile=\write4
-\openout4 = `ICIMPACT-2027-English.out'.
+\openout4 = `Blind-ICIMPACT-2027-English.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1200,13 +1200,14 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (./ICIMPACT-2027-English.aux)
-Package rerunfilecheck Info: File `ICIMPACT-2027-English.out' has not changed.
+[5] (./Blind-ICIMPACT-2027-English.aux)
+Package rerunfilecheck Info: File `Blind-ICIMPACT-2027-English.out' has not cha
+nged.
 (rerunfilecheck)             Checksum: B660BE958E11162D9D63176BD11351D0;2802.
  ) 
 Here is how much of TeX's memory you used:
- 27970 strings out of 476025
- 530901 string characters out of 5790016
+ 27971 strings out of 476025
+ 531012 string characters out of 5790016
  1881388 words of memory out of 5000000
  47592 multiletter control sequences out of 15000+600000
  637464 words of font info for 346 fonts, out of 8000000 for 9000
@@ -1218,7 +1219,7 @@ usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ICIMPACT-2027-English.pdf (5 pages, 737319 bytes).
+Output written on Blind-ICIMPACT-2027-English.pdf (5 pages, 737319 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  172 compressed objects within 2 object streams
